@@ -1,14 +1,14 @@
 import React, { Component } from "react";
-import Info from "./components/Info";
+import Info from "./Info";
 
-class App extends Component {
+class Cv extends Component {
   render() {
     return (
-      <div id="cv">
+      <div id="CV">
         <Info />
       </div>
     );
   }
 }
 
-export default App;
+export default Cv;
