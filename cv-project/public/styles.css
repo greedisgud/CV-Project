@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.name {
+  text-align: center;
+  margin: 20px;
+  font-size: 30px;
+}
+
+.title {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.bio {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+button.edit-toggle {
+  padding: 6px;
+  border-radius: 0.35em;
+  border: none;
+  background-color: lightblue;
+  cursor: pointer;
+}
+
+#bio .edit-toggle {
+  display: none;
+}
+
+#bio:hover .edit-toggle {
+  display: block;
+}

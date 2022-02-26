@@ -35,9 +35,9 @@ class Bio extends Component {
 
     return (
       <div id="bio">
-        <h2>{name ? name : "Your Name"}</h2>
-        <h5 className="title">{title ? title : "Title"}</h5>
-        <h3>Bio</h3>
+        <h2 className="name">{name ? name : "Your Name"}</h2>
+        <h3 className="title">{title ? title : "Title"}</h3>
+        <h3 className="bio">Bio</h3>
         <p className="bio">
           {bio
             ? bio
