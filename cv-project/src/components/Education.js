@@ -58,7 +58,7 @@ class Education extends Component {
         </button>
 
         {edit && (
-          <form>
+          <form id="edu-edit" className="edit-form">
             <label htmlFor="startDate"> Start Date:</label>
             <input
               id="startDate"
