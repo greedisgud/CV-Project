@@ -67,8 +67,8 @@ class Info extends Component {
     };
 
     return (
-      <div id="Info">
-        <div className="header">CV</div>
+      <div id="info">
+        <div className="header"></div>
         <div
           id="profile-photo"
           style={profilePhoto}

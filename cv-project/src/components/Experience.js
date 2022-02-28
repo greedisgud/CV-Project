@@ -62,7 +62,7 @@ class Experience extends Component {
         </button>
 
         {edit && (
-          <form id="exp-edit" className="edit-from">
+          <form id="exp-edit" className="edit-form">
             <label htmlFor="startDate"> Start Date:</label>
             <input
               id="startDate"
