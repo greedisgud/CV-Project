@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: beige;
+}
+
+.name {
+  text-align: center;
+  margin: 20px;
+  font-size: 30px;
+}
+
+.title {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.bio {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+button.edit-toggle {
+  padding: 6px;
+  border-radius: 0.35em;
+  border: none;
+  background-color: lightblue;
+  cursor: pointer;
+}
+
+#bio .edit-toggle {
+  display: none;
+}
+
+#info .edit-toggle {
+  display: none;
+}
+
+#education .edit-toggle {
+  display: none;
+}
+
+#experience .edit-toggle {
+  display: none;
+}
+
+#bio:hover .edit-toggle {
+  display: block;
+}
+
+#info:hover .edit-toggle {
+  display: block;
+}
+
+#education:hover .edit-toggle {
+  display: block;
+}
+
+#experience:hover .edit-toggle {
+  display: block;
+}
+
+.edit-toggle {
+  margin: auto;
+}
+
+#bio {
+  width: 300px;
+  margin-left: 30px;
+}
+
+#info {
+  margin-top: 60px;
+  display: flex;
+  gap: 40px;
+  text-align: center;
+  justify-content: center;
+}
+
+#education {
+  margin-top: 60px;
+  margin-left: auto;
+  align-content: space-between;
+  gap: 30px;
+}
+#experience {
+  margin-top: 60px;
+
+  width: 300px;
+  margin-left: 500px;
+}
+
+.edit-form {
+  position: inherit;
+  background-color: #82afb4;
+  color: #ffffff;
+  padding: 20px;
+  width: 300px;
+  z-index: 20;
+  flex-shrink: inherit;
+}
+.edit-form input,
+.edit-form textarea {
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: none;
+  border-radius: 0;
+  margin-bottom: 10px;
+  font-family: priori-sans, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 1.4;
+  padding: 5px 10px;
+  color: #ffffff;
+}
+.edit-form button {
+  background-color: #ffffff;
+  color: #82afb4;
+}
+
+#cv {
+  display: grid;
+  grid-template-columns: 200px auto;
+}
